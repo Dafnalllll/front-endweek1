@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+  }
+  
+
+.card {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    filter: opacity(0%);
+    border: 3px solid #dcdcdc;
+    transition: filter 0.3s ease;
+    -webkit-filter: opacity(0%);
+}
+
+.card img:hover {
+    filter: opacity(100%);
+    -webkit-filter: opacity(100%);
+}
+  
+  .card h2 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 10px;
+    border: dotted 2px #dcdcdc;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .card p {
+    border: dotted 2px #dcdcdc;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+p:hover {
+    border: none;
+    color: #ffffff;
+    transition: color 0.5s steps(10, end);
+    -webkit-transition: color 0.5s steps(10, end);
+    -moz-transition: color 0.5s steps(10, end);
+    -ms-transition: color 0.5s steps(10, end);
+    -o-transition: color 0.5s steps(10, end);
+}
+h2:hover {
+    border: none;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    color: #ffffff;
+    transition: transform 0.3s ease, color 0.3s ease;
+    -webkit-transition: transform 0.3s ease, color 0.3s ease;
+    -moz-transition: transform 0.3s ease, color 0.3s ease;
+    -ms-transition: transform 0.3s ease, color 0.3s ease;
+    -o-transition: transform 0.3s ease, color 0.3s ease;
+}
+h5{
+    color: #dcdcdc;
+}
